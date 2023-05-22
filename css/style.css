@@ -1,0 +1,122 @@
+/*common css start*/
+body{
+	margin: 0;
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+}
+/*common css end*/
+/*header start*/
+header{
+	padding: 40px 0;
+}
+.container{
+	width: 90%;
+/*	border: 1px solid red;*/
+	margin:  0 auto;
+	overflow: hidden;
+}
+.logo{width: 9%;
+/*	border: 1px solid;*/
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 65%;
+/*	border: 1px solid;	*/
+	float: right;
+}
+.menu ul{
+	margin: 0;
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	margin: 0px 50px;
+	padding: 5px 0px;
+	display: inline-block;
+	color: #626262;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: .33s;
+}
+.menu ul li:last-child a{
+
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	border-bottom:1px solid #626262;
+}
+/*header end*/
+/*banner start*/
+.banner{
+
+}
+.b-img{
+
+}
+.b-img img{
+	width: 100%;
+}
+/*banner end*/
+/*news start*/
+.news{
+	padding: 70px 0;
+	font-size: 22px;
+	font-weight: 400;
+}
+.container2{
+	width: 90%;
+}
+.signup{
+	text-align: center;
+}
+.s-h1{
+	color: #333333;
+	margin-top: 0;
+	margin-bottom: 70px;
+}
+.s-form{
+	width: 400px;
+/*	border: 4px solid red;*/
+	margin: 0 auto;
+	position: relative;
+}
+.s-form input{
+	font-family: 'Playfair Display', serif;
+	font-size: 14px;
+	color: #626262;
+	width: 345px;
+	height: 45px;
+	border: none;
+	border-bottom: 1px solid #000000;
+	background-color: transparent;
+	padding-left: 5px;
+	padding-right: 45px;
+}
+.s-form input:focus{
+	outline: 0;
+}
+.s-form button{
+	position: absolute;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	top: 15px;
+	right: 0;
+}
+.s-form button:focus{
+	outline: 0;
+}
+.s-form button img{
+}
+/*news end*/
+/*load start*/
+
+/*load end*/
